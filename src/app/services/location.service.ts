@@ -17,7 +17,7 @@ export class LocationService {
     success: (position: any) => void,
     error?: (err: any) => void
   ): Promise<string> {
-    if (true) {
+    if (false) {
       let lat = 52.2297;
       let lng = 21.0122;
       let step = 0.0001;
